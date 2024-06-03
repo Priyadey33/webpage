@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+        color: #333;
+    }
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.download-btn {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    background: linear-gradient(135deg,#f9f9f9);
+    color: #000;
+    padding: 100px 0;
+    text-align: left;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-buttons .btn {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.hero-image img {
+    max-width: 400%;
+    height: 500px;
+}
+
+.premium {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.premium .container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.premium h1{
+    font-size:2sem;
+    color:#e54545;
+    text-align:left;
+}
+
+.premium h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.premium p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.premium img {
+    max-width: 100%;
+    height: auto;
+}
+
+.choose-us {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.choose-us .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-us h1{
+    text-align: left;
+    color:#e54545;
+    align-items: center;
+}
+
+.choose-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 45%;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666;
+}
+
+.testimonials {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 1em;
+}
+
+.testimonials .container {
+    display: flex;
+    flex-direction: column;
+    align-items: align right;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 35%;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.testimonial span {
+    font-size: 1em;
+    color: #999;
+}
+
+footer {
+    background: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    color: #666;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.nav-links a:hover {
+    background-color: #f23d3d;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 1em;
+    max-width: 1200px;
+    margin: 2em auto;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    margin-bottom: 1em;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    background:c :#000;
+    color : #ffffff;
+    text-decoration : none;
+    border-radius : 2px;
+}
+.Testimonial h1{
+     font-size: 20px;
+     text-align: center;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(to right, #ffffff);
+    padding: 50px 0;
+    color: #000f;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    width: 20%;
+    position: relative;
+}
+
+.corner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.header-right {
+    width: 75%;
+    margin-left: auto;
+}
+
+.header-right h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+header blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #666;
+}
+
+.faq-item {
+    margin-bottom: 1em;
+    gap:20px;
+}
+.faq h4{
+    color:#e54545;
+}
+
+.faq h2{
+    font-size: 50px;
+    border-spacing: 50px;
+}
+
+.main-section {
+    background: #000;
+    color: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    background-color: #000;
+}
+
+.download-button {
+    background: #000;
+    color: #f9f9f9;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.download-button img{
+    width:130px;
+    height:50px;
+}
+.phones img{
+    width:600px;
+    height:30;
+}
+
+.footer {
+    background: #f1f1f1;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-row h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer-row ul {
+    list-style: none;
+}
+
+.footer-row ul li {
+    margin-bottom: 10px;
+}
+
+.footer-row ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-row p {
+    margin-bottom: 20px;
+}
+
+.footer-row input[type="email"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.subscribe-button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
